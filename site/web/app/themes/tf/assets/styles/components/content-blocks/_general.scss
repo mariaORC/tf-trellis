@@ -1,0 +1,48 @@
+.content-blocks .contentBlock {
+    margin-bottom: 46px; padding: 80px 0;
+
+    &.footer_calls_to_action, body.upgrade & {
+        margin-bottom: 0;
+    }
+
+	&.standard_block {
+		.btn { margin-bottom: 10px; }
+	}
+
+    .block-content-wrapper { max-width: 1380px; margin: 0 auto; }
+
+    h3 {
+        font-family: $font-family-sans-serif; font-weight: $font-weight-semi-bold; text-transform: none; margin-bottom: 12px; margin-top: 42px; line-height: 1.33;
+
+        .home & { color: $brand-success-dark; }
+    }
+    p:last-child { margin-bottom: 0; }
+
+    &.footer_calls_to_action {
+        color: #FFF; padding-top: 56px; padding-bottom: 56px; text-align: center;
+
+        .cta-title { font-size: 34px; max-width: 700px; margin-left: auto; margin-right: auto; }
+        img { margin: 16px 0 0 0; }
+        p:last-child { margin-bottom: 0; }
+        .btn { min-width: 172px; }
+        .block-footer-description {
+            font-size: 17px; padding-top: 20px;
+
+            a {
+                color: #FFF; text-decoration: underline;
+
+                &:hover, &:focus { text-decoration: none; }
+            }
+        }
+    }
+
+    &.testimonial_block {
+        color: #FFF; background: #12416b; text-align: center; padding: 90px 15px;
+
+        .quote-title { font-size: 24px; font-weight: 500; padding-bottom: 20px; max-width: 540px; border-bottom: solid 1px rgba(255,255,255,0.4); margin-left: auto; margin-right: auto; }
+        .quote-content { font-size: 18px; max-width: 610px; margin-left: auto; margin-right: auto; }
+        img { margin-bottom: 0; }
+    }
+}
+
+.block-footer { padding-top: 30px; }

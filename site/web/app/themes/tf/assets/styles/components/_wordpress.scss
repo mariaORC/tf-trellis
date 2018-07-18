@@ -1,0 +1,33 @@
+/* ==========================================================================
+    WordPress Generated Classes
+    See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
+    ========================================================================== */
+
+.aligncenter { display: block; margin: 0 auto; }
+.alignleft { float: left; margin: 0 20px 20px 0; }
+.alignleft.bigpad { margin: 0 40px 40px 0; }
+.alignright { float: right; margin: 0 0 20px 20px; }
+.alignright.bigpad { margin: 0 0 40px 40px; }
+.alignright.jumbopad { margin: 0 0 80px 80px; }
+.alignleft.small { margin: 0 10px 10px 0; }
+figure.alignnone { margin-left: 0; margin-right: 0; }
+.hide { display: none; }
+.wp-caption { max-width: 100%; }
+
+.wp-caption, .thumbnail {
+    display: block;
+    padding: 15px;
+    margin-bottom: 22px;
+    line-height: 1.528571429;
+    background-color: $gray-lighter;
+    border: 1px solid $gray-lighter;
+    border-radius: 0;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+
+@media screen and (max-width: $screen-sm) {
+	.alignright { float: none; margin-left: 0; display: block; }
+	.aligncenter { margin-left: 0; margin-right: 0; display: block; }
+}

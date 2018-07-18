@@ -1,0 +1,59 @@
+.home {
+	.home-feature {
+		background: $brand-primary; position: relative; margin-bottom: 0;
+
+		.background {
+			min-height: 600px; max-height: 600px; overflow: hidden;
+
+			video, object, img { min-height: 600px; min-width: 1200px; width: 100%; max-width: 9999px; }
+		}
+
+		.feature-caption {
+			margin: 0 auto;
+
+			.inner { max-width: 900px; margin: 0 auto; padding-top: 82px; }
+			.lead { max-width: 580px; margin: 0 auto 50px auto; }
+		}
+	}
+
+	.home-header.cta_wrap {
+		position: relative; z-index: 1; box-shadow: 0 5px 5px rgba(26,26,26,0.08);
+	}
+
+    .content-blocks .contentBlock {
+        margin: 0; padding: 60px 0;
+
+        &.standard_block h3 {
+            text-transform: none; font-weight: $font-weight-semi-bold;
+
+            &, a { color: $brand-success-dark; }
+		}
+
+		@media (min-width: $screen-sm-min) {
+			padding: 80px 0;
+		}
+    }
+}
+
+.announcement-strip {
+    background: $gray-lighter; padding: 65px 0;
+
+    &, h2, .strip-footer a { color: $brand-success-dark; }
+    h2 { line-height: 1.55; font-weight: $font-weight-semi-bold; margin-top: 0; margin-bottom: 20px; }
+    p { margin-bottom: 25px; }
+    a.btn {
+        color: #FFF; margin-bottom: 20px; padding: 20px 50px; white-space: pre-wrap;
+
+        span { white-space: nowrap; }
+    }
+
+    .strip-footer {
+        font-size: 18px;
+
+        a {
+            text-decoration: underline;
+
+            &:focus, &:hover { text-decoration: none; }
+        }
+    }
+}

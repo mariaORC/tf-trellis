@@ -1,0 +1,16 @@
+.content-blocks .contentBlock.featured_blog_posts {
+	h4 a, h2 { color: $brand-success-dark; }
+	.label { display: inline-block; margin-bottom: 17px; }
+	h4 { margin-top: 8px; margin-bottom: 20px; }
+}
+
+.featured-posts {
+	display: flex; flex-wrap: wrap;
+
+	.item { padding-top: 35px; padding-bottom: 35px; }
+	.view-more-wrap { padding-top: 4px; }
+}
+
+@media (min-width: $screen-sm-min) {
+	.content-blocks .contentBlock.featured_blog_posts .featured-posts .item { flex-basis: 49.9%; }
+}

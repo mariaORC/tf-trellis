@@ -1,0 +1,32 @@
+.content-blocks .contentBlock.icon_features {
+	body.home & { padding-bottom: 0; }
+
+	.icon-feature {
+		margin-bottom: 70px;
+
+		h5 { font-weight: $font-weight-semi-bold; margin-top: 0; }
+
+		.feature-thumb {
+			height: 49px;
+
+			img { max-height: 100%; width: auto; }
+		}
+
+		@media (min-width: $screen-sm-min) {
+			flex-basis: 49.9%;
+		}
+	}
+
+	.icons-top {
+		display: flex; flex-wrap: wrap; flex-direction: row;
+
+		h4 { font-size: 24px; }
+		ul { padding-left: 20px; }
+	}
+
+	@media (max-width: $screen-sm-min - 1) {
+		.icons-left {
+			.feature-thumb { margin-bottom: 20px; }
+		}
+	}
+}

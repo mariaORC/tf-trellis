@@ -1,0 +1,113 @@
+//
+// Variables
+// --------------------------------------------------
+
+
+//== Colors
+//
+//## Gray and brand colors for use across Bootstrap.
+$gray-darker:            lighten(#000, 13.5%); // #222
+$gray-dark:              #1a1a1a; //lighten(#000, 20%);   // #333
+$gray:                   lighten(#000, 33.5%); // #555
+$gray-light:             lighten(#000, 60%);   // #999
+$gray-lighter:           #F2F3F3;
+
+//** Global text color on `<body>`.
+$text-color:            #1a1a1a;
+
+$brand-primary:          #00aba0;
+$brand-info:                $text-color;
+$brand-success:        #85c559;
+$brand-warning:         #F9a131;
+$brand-danger:           #f26b73;
+$brand-danger-dark:           #B53447;
+$brand-success-dark:   #006B43;
+
+$support-text-color:    #12416b;
+$support-darkblue:      #1166b5;
+$support-teal:          $brand-primary;
+$support-teal-hover:    #3bc4bd;
+$support-teal-light:    #e4f4f4;
+
+//== Scaffolding
+//
+// ## Settings for some of the most global styles.
+
+//** Background color for `<body>`.
+$body-bg:               #FFF;
+
+//** Global textual link color.
+$link-color:            $brand-primary;
+//** Link hover color set via `darken()` function.
+$link-hover-color:      darken($brand-primary, 15%);
+
+//== Typography
+//
+//## Font, line-height, and color for body text, headings, and more.
+$font-weight-light: 400;
+$font-weight-regular: 400;
+$font-weight-bold: 500;
+$font-weight-semi-bold: 600;
+$font-weight-extra-bold: 700;
+
+$font-family-sans-serif:  'Montserrat', sans-serif, Helvetica, Arial;
+$font-family-serif:       Georgia, "Times New Roman", Times, serif;
+//** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
+$font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
+$font-family-base:        $font-family-sans-serif;
+$font-weight: $font-weight-light;
+
+$font-size-base:          16px;
+
+//** Unit-less `line-height` for use in components like buttons.
+$line-height-base:        1.528571429; // 20/14
+//** Computed "line-height" (`font-size` * `line-height`) for use with `margin`, `padding`, etc.
+
+//** By default, this inherits from the `<body>`.
+$headings-font-family:    $font-family-sans-serif;
+$headings-font-weight:    $font-weight-bold;
+$headings-line-height:    1.2;
+$headings-color:          $brand-primary;
+
+//-- Iconography
+//
+//## Specify custom locations of the include Glyphicons icon font. Useful for those including Bootstrap via Bower.
+
+$icon-font-path:          "../fonts/";
+$icon-font-name:          "thoughtfarmer";
+
+$input-color-placeholder: #cccccc;
+
+$border-radius-base:        0;
+$border-radius-large:       0;
+$border-radius-small:       0;
+
+$grid-gutter-width: 30px;
+$screen-lg: 1226px;
+$container-large-desktop:      (940px + $grid-gutter-width);
+$container-lg:                 $container-large-desktop;
+
+$nav-pills-border-radius:                   0;
+$nav-pills-active-link-hover-bg:            transparent;
+$nav-pills-active-link-hover-color:         $brand-danger;
+$dropdown-link-active-color:     $brand-danger;
+$dropdown-link-active-bg:        transparent;
+
+$nav-link-hover-bg: transparent;
+$nav-link-padding: 10px 15px;
+
+$btn-primary-border:                 $brand-primary;
+$btn-success-border:                 $brand-success;
+$btn-info-border:                    $brand-info;
+$btn-warning-border:                 $brand-warning;
+$btn-danger-border:                  $brand-danger;
+$btn-font-weight: 					 $font-weight-semi-bold;
+
+$panel-bg:                    transparent;
+$panel-body-padding:          15px;
+$panel-heading-padding:       10px 15px;
+$panel-border-radius:         0;
+
+$panel-default-text:          transparent;
+$panel-default-border:        transparent;
+$panel-default-heading-bg:    transparent;

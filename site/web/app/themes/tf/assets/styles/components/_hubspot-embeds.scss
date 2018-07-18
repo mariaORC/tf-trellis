@@ -1,0 +1,140 @@
+.hs-form {
+    fieldset {
+        max-width: 100%!important;
+
+        &.form-columns-2 {
+            .input { margin-right: 18px!important; }
+
+            .field:last-child {
+                .input { margin-right: 0!important; }
+            }
+        }
+    }
+
+    .hs-form-field {
+      margin-bottom: 12px; position: relative;
+
+      label  { font-weight: $font-weight-light; margin-bottom: 3px; padding-bottom: 0; }
+
+      .hs-input {
+         background: #FFF; border: 1px solid #ccc; outline: 0; padding: 8px; width: 100%; line-height: 1.2em;
+
+        &::-webkit-input-placeholder {
+            color:    $input-color-placeholder;
+        }
+        &:-moz-placeholder {
+           color:    $input-color-placeholder;
+           opacity:  1;
+        }
+        &::-moz-placeholder {
+           color:    $input-color-placeholder;
+           opacity:  1;
+        }
+        &:-ms-input-placeholder {
+           color:    $input-color-placeholder;
+        }
+        &:placeholder-shown {
+          color:    $input-color-placeholder;
+        }
+      }
+
+      select.hs-input { height: 34px; }
+      textarea.hs-input { min-height: 5.8em; }
+
+      .hs-form-required { color: $brand-danger;padding: 0 4px; }
+
+      .input .inputs-list {
+         padding-left: 0;
+
+         li { list-style: none; }
+         label {
+            padding-left: 25px; position: relative;
+
+            input { position: absolute; top: 1px; left: 1px; width: auto; }
+         }
+      }
+    }
+
+    .hs-button {
+        @extend .btn;
+        @include button-variant(#FFF, $brand-danger, $brand-danger);
+		background: $brand-danger;
+
+        padding: 9px 16px 10px 16px;
+    }
+
+    .hs-button {
+        &, &:hover, &:focus { padding: 9px 16px 10px 16px; }
+		&:hover, &:focus {
+			background: $brand-danger-dark;
+			border-color: $brand-danger-dark;
+			outline: none;
+		}
+    }
+
+	.hs_error_rollup { display: none; }
+
+    .hs-error-msgs {
+        position: absolute; top: 100%; width: 100%;
+
+        li {
+            @extend .alert;
+            @extend .alert-danger;
+
+            list-style: none; width: auto; position: absolute; top: 100%; left: 0; z-index: 9999; margin: 7px 0 0 0; padding: 5px 9px; border: solid 1px #a94442; border-radius: 6px; font-size: 13px;
+
+            &:after, &:before {
+                bottom: 100%;
+                left: 20px;
+                border: solid transparent;
+                content: " ";
+                height: 0;
+                width: 0;
+                position: absolute;
+                pointer-events: none;
+            }
+
+            &:after {
+                border-color: rgba(255, 255, 255, 0);
+                border-bottom-color: #f2dede;
+                border-width: 6px;
+                margin-left: -6px;
+            }
+
+            &:before {
+                border-color: rgba(255, 0, 0, 0);
+                border-bottom-color: #a94442;
+                border-width: 7px;
+                margin-left: -7px;
+            }
+            label { display: block; margin: 0; }
+        }
+    }
+
+    .submitted-message {
+      @extend .alert;
+      @extend .alert-success;
+    }
+}
+
+.inline-hubspot-form .hs-form {
+   padding-bottom: 32px;
+
+    .field {
+        position: relative;
+
+        > label { display: none; }
+    }
+
+    .hs-button {
+        @extend .btn;
+        @include button-variant($btn-danger-color, $btn-danger-bg, $btn-danger-border);
+        background: $brand-danger; font-size: 14px;
+
+        &, &:hover, &:focus { padding: 5px 16px 6px 16px; }
+        &:hover, &:focus { outline: none; }
+    }
+
+    .hs_submit, .field, .input { display: inline-block; float: left; }
+    .hs-input[type=email] { box-shadow: none; border: solid 1px #cccccc; color: $text-color; font-size: 14px; padding: 8px 12px; min-width: 198px; margin-right: 0; }
+}

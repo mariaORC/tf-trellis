@@ -1,0 +1,76 @@
+.content-blocks .contentBlock {
+    &.image_switcher_with_nav, &.full_width_product_feature {
+        padding-top: 40px; padding-bottom: 40px;
+
+        p, img { margin-bottom: 0; }
+        h2 { margin-bottom: 25px; }
+
+        .intro-side {
+            h2 { margin-top: 5px; margin-bottom: 15px; }
+        }
+
+        .feature-content {
+            font-size: 18px;
+
+            .inner { max-width: 420px; }
+        }
+
+        .feature-thumb {
+            img { margin: 0; }
+        }
+
+        &.with-background {
+            height: 630px; text-shadow: 0 0 3px rgba(0,0,0,0.95);
+
+            &, h2 { color: #FFF; }
+
+            .block-content-wrapper {
+                &, > .row { height: 100%; }
+
+                > .row {
+                    display: flex; align-items: center; display: block;
+
+                    .feature-content { min-width: 100%; }
+                }
+            }
+        }
+
+        @media (min-width: $screen-xs-max) {
+            .block-content-wrapper > .row {
+                //display: flex; align-items: center; display: block;
+
+                .feature-content { min-width: 0; }
+            }
+        }
+    }
+
+    &.image_switcher_with_nav {
+        border-bottom: solid 1px #c3c3c3;
+
+        .feature-content {
+            .inner { max-width: 500px; padding-left: 18px; padding-right: 18px; }
+        }
+
+        .crossfader { overflow: hidden; position: relative; }
+
+        .image-switcher {
+            div.item {
+                color: $text-color; cursor: pointer; display: block; font-size: 15px; padding: 18px 0; margin: 0 -18px;
+
+                h3 { color: $brand-success-dark; font-weight: $font-weight-semi-bold; margin-bottom: 12px; text-transform: none; }
+
+                @media (min-width: $screen-sm-min) {
+                    padding: 18px;
+
+                    &.active, &:hover {
+                        background: $gray-lighter;
+
+                        h3 { color: $brand-primary; }
+                    }
+
+                    &:hover { background: darken($gray-lighter, 3%); }
+                }
+            }
+        }
+    }
+}

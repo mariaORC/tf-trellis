@@ -1,0 +1,15 @@
+.content-blocks .contentBlock.multi-column_content {
+    .item {
+        @media (max-width: $screen-sm-min) {
+            margin-bottom: 50px;
+
+            &:last-child { margin-bottom: 0; }
+        }
+    }
+
+    .icon {
+        display: flex;
+
+        img { align-self: flex-end; flex: 0 0 auto; object-fit: scale-down; }
+    }
+}

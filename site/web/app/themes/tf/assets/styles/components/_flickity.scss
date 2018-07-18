@@ -1,0 +1,19 @@
+.flickity-prev-next-button {
+    background: transparent; height: 80px; width: 80px;
+
+    .arrow {
+        fill: #FFF;
+    }
+
+    &:hover, &:focus {
+		background: transparent; outline: none; border: 0;
+
+		.arrow {
+			fill: $brand-danger;
+		}
+	}
+
+	@media (min-width: $screen-sm-min) {
+		height: 60px; width: 60px;
+	}
+}

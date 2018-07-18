@@ -1,0 +1,395 @@
+/* ==========================================================================
+     Footer
+     ========================================================================== */
+
+.cta_wrap {
+    background: #fff;
+    box-shadow: 0 0 10px rgba(26, 26, 26, 0.1);
+    padding: 30px 15px;
+
+    .btn {
+		margin: 3px 10px;
+		padding: 6px 12px;
+        min-width: 160px;
+    }
+}
+
+#ctas {
+    &.scroll {
+        bottom: 0;
+        padding: 10px 0;
+        position: fixed;
+        width: 100%;
+        background: #fff;
+        background: transparent\9;
+        background: rgba(255, 255, 255, 0.85);
+        zoom: 1;
+        text-align: center;
+        transition: all 0.5s;
+    }
+
+    &.stuck {
+        background: transparent;
+        bottom: auto;
+        position: relative;
+    }
+}
+
+.footer_wrap {
+    background: #f9f9f9;
+    color: #666;
+	line-height: 1.7;
+	font-size: 14px;
+    font-weight: 400;
+    padding-top: 32px;
+
+    strong {
+        color: $text-color;
+	}
+
+    a {
+        color: #666;
+        &:hover {
+            color: #333;
+            text-decoration: none;
+        }
+    }
+
+    h3, h4, h5, h6 {
+        color: $text-color;
+    }
+
+    h6 {
+        margin-top: 0;
+        margin-bottom: 15px;
+
+        &, a {
+            color: $text-color;
+            font-weight: $font-weight-semi-bold;
+        }
+    }
+
+    .footer-nav {
+        &, li {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        > li {
+            display: block;
+            float: left;
+            margin-bottom: 40px;
+            width: 33%;
+
+            &:nth-child(4) {
+                clear: left;
+            }
+            > a {
+                color: $text-color;
+                font-weight: $font-weight-semi-bold;
+            }
+        }
+
+        .dropdown-menu {
+            box-shadow: none;
+			border: 0;
+			min-width: 0;
+            background: transparent;
+            float: none;
+            position: relative;
+            top: auto;
+            left: auto;
+            display: block;
+
+            a {
+                color: #666;
+				line-height: 1.3;
+				font-size: 14px;
+                padding: 4px 20px 9px 0;
+                white-space: pre-wrap;
+            }
+            li.active > a, a:hover {
+                background: transparent;
+                color: #333;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .footer-left .illustration {
+        margin-bottom: 40px;
+        margin-top: 80px;
+    }
+
+	@media (min-width: $screen-sm-min) {
+		.footer-right, .footer-middle {
+			padding-left: 36px;
+		}
+
+		.footer-right {
+			padding-bottom: 40px;
+		}
+
+		.footer-nav {
+			margin-right: -30px;
+
+			> li {
+				width: 33.33%;
+				margin-bottom: 25px;
+			}
+		}
+	}
+
+	@media (min-width: $screen-sm-min) and (max-width: 900px) {
+		.footer-right, .footer-middle {
+			padding-left: 15px;
+		}
+
+		.footer-nav {
+			> li {
+				width: 44%;
+
+				&:nth-child(4) { clear: none; }
+				&:nth-child(3) { clear: left; }
+			}
+		}
+	}
+
+	@media (min-width: $screen-md-min) {
+		.footer-right, .footer-middle {
+			padding-left: 46px;
+		}
+
+		.footer-nav {
+			margin-right: -15px;
+
+			> li {
+				width: 33%;
+			}
+		}
+	}
+
+	@media (min-width: $screen-lg-min) {
+		.footer-right, .footer-middle {
+			padding-left: 56px;
+		}
+
+		.footer-nav {
+			margin-right: 0;
+
+			> li {
+				width: 33%;
+			}
+		}
+	}
+
+    .social {
+        margin-bottom: 54px;
+
+        a.social-sprite {
+            font-size: 16px;
+            line-height: 30px;
+            margin-right: 7px;
+
+			color: #FFF;
+            background: $brand-success-dark;
+            display: inline-block;
+            border-radius: 50%;
+            height: 30px;
+            width: 30px;
+			text-align: center;
+			transition: background-color 0.2s ease-out;
+
+			&:hover, &:focus {
+				background: #003823;
+			}
+        }
+    }
+
+
+    .hubspot-form .hs-form {
+        .field > label { display: none; }
+        .hs-button { padding: 5px 16px 6px 16px; }
+
+        .hs-input[type=email] {
+            box-shadow: none;
+            border: solid 1px #cccccc;
+            color: $text-color;
+            font-size: 14px;
+            padding: 8px 12px;
+			width: 100%;
+			max-width: 250px;
+            margin-right: 0;
+        }
+    }
+}
+
+.copyright_wrap {
+    background: #f9f9f9;
+    color: #666666;
+    font-size: 14px;
+    font-weight: $font-weight-light;
+    padding-bottom: 30px;
+
+    a {
+        color: $brand-success-dark;
+    }
+    hr {
+        border-top: 1px solid #cccccc; margin-top: 12px;
+    }
+}
+
+.copyright-nav a {
+    color: #666666;
+    margin-left: 6px;
+    margin-right: 6px;
+
+    &:hover, &:focus {
+        color: #333;
+    }
+}
+
+@media screen and (max-width: $screen-sm-max) {
+    .copyright-nav {
+        margin-top: 8px;
+    }
+}
+
+@media screen and (max-width: $screen-sm) {
+    .phone-numbers {
+        margin-bottom: 12px;
+
+        p {
+            line-height: 1.7;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+@media screen and (max-width: $screen-xs) {
+    .copyright_wrap {
+        font-size: 12px;
+        padding: 20px 0;
+    }
+
+    .footer_wrap {
+        #newsletterSignup {
+            padding-right: 15px;
+
+            .mktoForm {
+                margin-left: 0!important;
+                padding-left: 0;
+
+                .mktoError {
+                    left: 0!important;
+                    top: 32px;
+                }
+            }
+
+            #inline-marketo-form {
+                padding-bottom: 0;
+
+                .mktoForm {
+                    position: relative;
+                    height: 37px;
+                    padding: 0;
+
+                    .mktoFormCol, .mktoFieldWrap, .mktoFormRow {
+                        width: 100%!important;
+                    }
+                    input.mktoEmailField {
+                        height: 37px;
+                        padding-right: 120px!important;
+                    }
+                    .mktoButtonRow {
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        text-align: right;
+                        width: 120px;
+
+                        .mktoButton {
+                            margin-right: 0!important;
+                        }
+                    }
+                }
+            }
+        }
+
+        .footer-nav {
+            padding-top: 15px;
+            > li {
+                border-bottom: solid 1px #7c8187;
+                float: none;
+                margin-bottom: 0;
+                width: 100%;
+
+                .dropdown-menu a, a {
+					color: #fff;
+                    padding: 10px 15px;
+                    margin: 0;
+                }
+
+                .dropdown-menu {
+                    height: auto;
+					max-height: 0;
+					min-width: 0;
+                    margin: 0;
+                    padding: 0;
+                    transition: max-height 0.3s;
+                    overflow: hidden;
+
+                    a {
+                        font-size: 12px;
+                        padding: 0 10px 10px;
+                    }
+                    > li:last-child a {
+                        padding-bottom: 16px;
+                    }
+                }
+
+                > a {
+                    color: $text-color;
+                    display: block;
+                    font-size: 12px;
+                    padding: 10px 0;
+                }
+                &.dropdown {
+                    > a {
+                        &:after {
+                            font-family: "thoughtfarmer";
+                            content: "\6f";
+                            color: $text-color;
+                            float: right;
+                            text-transform: none;
+                        }
+                    }
+
+                    &.open {
+                        > a {
+                            &:after {
+								content: "\70";
+								color: $text-color;
+                            }
+                        }
+
+                        .dropdown-menu {
+                            max-height: 500px;
+							display: block;
+
+							a { color: $text-color; }
+                        }
+                    }
+                }
+            }
+
+            margin-bottom: 36px;
+        }
+
+        .phone-numbers {
+            margin-bottom: 12px;
+            font-size: 12px;
+        }
+    }
+}

@@ -1,0 +1,547 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Thoughtfarmer Theme\n"
+"POT-Creation-Date: 2014-10-07 23:17-0800\n"
+"PO-Revision-Date: 2014-10-07 23:19-0800\n"
+"Last-Translator: Martin Blumenfeld <martin@rps.is>\n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: /Users/martin/Sites/Openroad/www/wp-content/themes/"
+"tf\n"
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/archive.php:18
+#, php-format
+msgid "Daily Archives: <span>%s</span>"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/archive.php:20
+#, php-format
+msgid "Monthly Archives: <span>%s</span>"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/archive.php:22
+#, php-format
+msgid "Yearly Archives: <span>%s</span>"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/archive.php:24
+msgid "Blog Archives"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/attachment.php:39
+#, php-format
+msgid "Return to %s"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/author.php:16
+#, php-format
+msgid "Posts by: &ldquo;%s&rdquo;"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/category.php:7
+#, php-format
+msgid "Results for category: &ldquo;%s&rdquo;"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/index.php:6
+msgid "Sorry, no results were found."
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/index.php:20
+msgid "&larr; Older posts"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/index.php:21
+msgid "Newer posts &rarr;"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/loop.php:25
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/titles.php:33
+msgid "Not Found"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/loop.php:27
+msgid ""
+"Apologies, but no results were found for the requested archive. Perhaps "
+"searching will help find a related post."
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/loop.php:88
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/loop.php:89
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/search.php:17
+#, php-format
+msgid "Results for your search: &ldquo;%s&rdquo;"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/search.php:30
+msgid "Nothing Found"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/search.php:32
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/searchform.php:3
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/searchform.php:6
+msgid "Search"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/searchform.php:4
+msgid "Search for:"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/tag.php:6
+#, php-format
+msgid "Posts with tag: &ldquo;%s&rdquo;"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/template-multilingual-landing-page.php:34
+msgid "Key Features"
+msgstr "LEISTUNGSMERKMALE"
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/template-multilingual-landing-page.php:65
+msgid "Pricing"
+msgstr "REISGESTALTUNG"
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/template-multilingual-landing-page.php:68
+msgid "Cloud"
+msgstr "Cloud"
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/template-multilingual-landing-page.php:69
+msgid ""
+"Let us do the work for you. We'll host everything securely in our data "
+"centre in London or Vancouver."
+msgstr ""
+"Lassen Sie uns die Arbeit für Sie machen. Wir hosten alles sicher in unserem "
+"Rechenzentrum in London oder Vancouver."
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/template-multilingual-landing-page.php:82
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/template-multilingual-landing-page.php:103
+msgid "Euros"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/template-multilingual-landing-page.php:82
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/template-multilingual-landing-page.php:103
+msgid "Canadian Dollar (Québec)"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/template-multilingual-landing-page.php:89
+msgid "Self-Hosted"
+msgstr "Selbst gehostet."
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/template-multilingual-landing-page.php:90
+msgid ""
+"Host on your own servers and enjoy complete control. Requires Windows "
+"Server, SQL Server and Active Directory."
+msgstr ""
+"Selbst auf den eigenen Servern hosten und die volle Kontrolle behalten. "
+"Erfordert Windows Server, SQL Server und Active Directory."
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/template-multilingual-landing-page.php:138
+msgid "Multilingual"
+msgstr "MEHRSPRACHIG"
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/template-multilingual-landing-page.php:150
+msgid "Request a Live demo"
+msgstr "LIVE-DEMO ANFORDERN"
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/template-multilingual-landing-page.php:151
+msgid "form_intro"
+msgstr ""
+"Bitte beachten: Wir freuen uns, Ihnen unsere Intranet-Software in mehreren "
+"Sprachen anbieten zu können, aber unsere E-Mail-Kommunikation ist leider nur "
+"auf Englisch verfügbar. Vielen Dank!"
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/activation.php:28
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/activation.php:29
+msgid "Theme Activation"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/activation.php:50
+#, php-format
+msgid "%s Theme Activation"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/activation.php:52
+msgid ""
+"These settings are optional and should usually be used only on a fresh "
+"installation"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/activation.php:59
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/activation.php:62
+msgid "Create static front page?"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/activation.php:64
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/activation.php:76
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/activation.php:88
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/activation.php:100
+msgid "Yes"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/activation.php:65
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/activation.php:77
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/activation.php:89
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/activation.php:101
+msgid "No"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/activation.php:67
+msgid "Create a page called Home and set it to be the static front page"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/activation.php:71
+msgid "Change permalink structure?"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/activation.php:74
+msgid "Update permalink structure?"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/activation.php:79
+msgid "Change permalink structure to /&#37;postname&#37;/"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/activation.php:83
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/activation.php:86
+msgid "Create navigation menu?"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/activation.php:91
+msgid "Create the Primary Navigation menu and set the location"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/activation.php:95
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/activation.php:98
+msgid "Add pages to menu?"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/activation.php:103
+msgid "Add all current published pages to the Primary Navigation"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/activation.php:126
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/activation.php:147
+msgid "Home"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/activation.php:173
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/activation.php:176
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/activation.php:190
+msgid "Primary Navigation"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/case-study-post-type.php:13
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/industry-post-type.php:13
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/landing-post-type.php:13
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/person-post-type.php:13
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/slider-post-type.php:13
+msgid "Add New "
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/case-study-post-type.php:14
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/industry-post-type.php:14
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/landing-post-type.php:14
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/person-post-type.php:14
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/slider-post-type.php:14
+msgid "Edit "
+msgstr "(Edit)"
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/case-study-post-type.php:15
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/industry-post-type.php:15
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/landing-post-type.php:15
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/person-post-type.php:15
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/slider-post-type.php:15
+msgid "New "
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/case-study-post-type.php:16
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/industry-post-type.php:16
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/landing-post-type.php:16
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/person-post-type.php:16
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/slider-post-type.php:16
+msgid "View "
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/case-study-post-type.php:17
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/industry-post-type.php:17
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/landing-post-type.php:17
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/person-post-type.php:17
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/slider-post-type.php:17
+msgid "Search "
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/case-study-post-type.php:18
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/case-study-post-type.php:19
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/industry-post-type.php:18
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/industry-post-type.php:19
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/landing-post-type.php:18
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/landing-post-type.php:19
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/person-post-type.php:18
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/person-post-type.php:19
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/slider-post-type.php:18
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/slider-post-type.php:19
+msgid "No "
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/cleanup.php:193
+msgid "Continued"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/custom.php:269
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/custom.php:304
+msgid "# Users"
+msgstr "Anzahl der Nutzer"
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/custom.php:279
+msgid "Monthly Fee Per User*"
+msgstr "Monatliche Gebühr pro Nutzer"
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/custom.php:288
+msgid ""
+"*All per-user products require an annual contract and are billed annually in "
+"advance."
+msgstr ""
+"*Alle Produkte pro Nutzer erfordern einen Jahresvertrag und werden jährlich "
+"im Voraus abgerechnet."
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/custom.php:289
+msgid "Our Cloud service includes maintenance &amp; support"
+msgstr "Unser Cloud-Service beinhaltet Wartung &amp; Betreuung"
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/custom.php:313
+msgid "One-Time Fee Per User"
+msgstr "EINMALIGE GEBÜHR PRO USER"
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/custom.php:317
+msgid "Enterprise License."
+msgstr "Unternehmenslizenz."
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/custom.php:317
+msgid "Contact Us"
+msgstr "Kontaktieren Sie uns"
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/custom.php:321
+msgid "User fee includes first 12 months of maintenance &amp; support"
+msgstr ""
+"Die Nutzungsgebühr schließt die Wartung &amp; Betreuung innerhalb der ersten "
+"12 Monate ein"
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/custom.php:749
+#, php-format
+msgid "%1$s / %2$s"
+msgstr "%1$s / %2$s"
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/custom.php:750
+#, php-format
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr "<cite class=\"fn\">%s</cite>"
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/custom.php:751
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/templates/comment.php:5
+msgid "(Edit)"
+msgstr "(Edit)"
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/custom.php:756
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/templates/comment.php:9
+msgid "Your comment is awaiting moderation."
+msgstr "Your comment is awaiting moderation."
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/custom.php:992
+msgid "&ldquo;"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/custom.php:992
+msgid "&rdquo;"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/init.php:97
+#, php-format
+msgid ""
+"<span class=\"%1$s\">By</span> %3$s<span class=\"meta-sep\">,</span> %2$s"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/titles.php:10
+msgid "Latest Posts"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/titles.php:19
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/titles.php:21
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/titles.php:23
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/titles.php:26
+#, php-format
+msgid "Author Archives: %s"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/titles.php:31
+#, php-format
+msgid "Search Results for %s"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/widgets.php:8
+msgid "Primary"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/widgets.php:36
+msgid "Use this widget to add a vCard"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/widgets.php:38
+msgid "Roots: vCard"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/lib/widgets.php:65
+msgid "vCard"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/templates/comment.php:4
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/templates/comments.php:19
+msgid "&larr; Older comments"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/templates/comments.php:22
+msgid "Newer comments &rarr;"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/templates/comments.php:30
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/templates/comments.php:35
+msgid "Comments are closed."
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/templates/comments.php:44
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/templates/comments.php:49
+#, php-format
+msgid "Logged in as <a href=\"%s/wp-admin/profile.php\">%s</a>."
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/templates/comments.php:50
+msgid "Log out of this account"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/templates/comments.php:50
+msgid "Log out &raquo;"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/templates/comments.php:54
+msgid "Name"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/templates/comments.php:54
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/templates/comments.php:58
+msgid " (required)"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/templates/comments.php:58
+msgid "Email (will not be published)"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/templates/comments.php:62
+msgid "Website"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/templates/comments.php:67
+msgid "Comment"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/templates/comments.php:70
+msgid "Submit Comment"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/templates/content-single.php:116
+msgid "Pages:"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/templates/entry-meta.php:1
+msgid "By"
+msgstr ""
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/templates/footer.php:52
+msgid ""
+"ThoughtFarmer, a product of <a href=\"http://www.openroad.ca\">OpenRoad</a>."
+msgstr ""
+"ThoughtFarmer, ein Produkt von <a href=\"http://www.openroad.ca\">OpenRoad</"
+"a>."
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/templates/footer.php:52
+#, fuzzy
+msgid "OpenRoad Communications Ltd. All rights reserved."
+msgstr "OpenRoad Communications Ltd. Alle Rechte vorbehalten."
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/templates/footer.php:55
+msgid "Privacy policy"
+msgstr "Datenschutzerklärung"
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/templates/footer.php:55
+msgid "Contact us"
+msgstr "Kontaktieren Sie uns"
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/templates/footer.php:58
+msgid ""
+"<a href=\"/de/\">Deutsch</a> <a href=\"/fr/\">français</a> <a href=\"/nl/"
+"\">Nederlands</a>"
+msgstr ""
+"<a href=\"/\">English</a> <a href=\"/fr/\">français</a> <a href=\"/nl/"
+"\">Nederlands</a>"
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/templates/header.php:6
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/templates/header.php:31
+msgid "North America"
+msgstr "Nordamerika"
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/templates/header.php:6
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/templates/header.php:31
+msgid "International"
+msgstr "International"
+
+#: /Users/martin/Sites/Openroad/www/wp-content/themes/tf/templates/header.php:33
+#, fuzzy
+msgid "Request a Demo"
+msgstr "LIVE-DEMO ANFORDERN"
+
+#~ msgid "marketo_form_url"
+#~ msgstr "http://info.thoughtfarmer.com/DemoRequestDE.html"
+
+#~ msgid "The Social Intranet"
+#~ msgstr "das soziale Intranet"
+
+#~ msgid "View English site"
+#~ msgstr "View English site"
+
+#~ msgid "wufoo_form"
+#~ msgstr "http://info.thoughtfarmer.com/DemoRequestDE.html"

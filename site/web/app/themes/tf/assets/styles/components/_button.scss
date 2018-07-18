@@ -1,0 +1,90 @@
+.btn {
+	transition: background-color 0.2s ease-out, color 0.2s ease-out;
+
+	.panel-body & { margin-bottom: 7px; }
+}
+
+.btn-short { padding: 6px 12px; }
+
+.btn-success-dark {
+    @include button-variant(#FFF, $brand-success-dark, $brand-success-dark);
+
+    &.btn-link {
+        background: transparent;
+        border: 0;
+        color: $brand-success-dark;
+
+        &:hover, &:focus {
+			color: $brand-danger;
+		}
+    }
+}
+
+.btn-link.btn-default { color: #666; }
+
+.btn-danger {
+	&:hover, &:focus {
+		background: $brand-danger-dark;
+		border-color: $brand-danger-dark;
+	}
+}
+
+.btn-primary {
+	&:hover, &:focus {
+		border-color: darken($brand-primary, 5%);
+	}
+}
+
+.btn-success {
+	&:hover, &:focus {
+		border-color: darken($brand-success, 5%);
+	}
+}
+
+.btn-info {
+	&:hover, &:focus {
+		border-color: darken($brand-info, 5%);
+	}
+}
+
+.btn-outline {
+    background-color: transparent;
+    color: inherit;
+    transition: all .5s;
+
+    &.btn-success-dark {
+        color: $brand-success-dark;
+    }
+    &.btn-success {
+        color: $brand-success;
+    }
+    &.btn-primary {
+        color: $brand-primary;
+    }
+    &.btn-info {
+        color: $brand-info;
+    }
+    &.btn-warning {
+        color: $brand-warning;
+    }
+    &.btn-danger {
+        color: $brand-danger;
+    }
+
+    &:hover, &:focus {
+        color: #FFF;
+    }
+}
+
+.btn-link {
+    padding-left: 0;
+    padding-right: 0;
+
+    &.btn-default {
+        color: #666;
+
+        &:hover, &:focus {
+            color: #333;
+        }
+    }
+}
