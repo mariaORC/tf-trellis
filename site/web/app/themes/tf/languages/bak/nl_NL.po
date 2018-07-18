@@ -1,0 +1,137 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Thoughtfarmer Theme\n"
+"POT-Creation-Date: 2013-09-12 19:01-0800\n"
+"PO-Revision-Date: 2013-09-12 19:03-0800\n"
+"Last-Translator: Martin Blumenfeld <martin@coastalextreme.com>\n"
+"Language-Team: \n"
+"Language: French\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: functions.php:397 functions.php:432
+msgid "# Users"
+msgstr "Aantal gebruikers"
+
+#: functions.php:398
+msgid "Monthly Fee Per User"
+msgstr "Maandelijks tarief per gebruiker"
+
+#: functions.php:433
+msgid "One-Time Fee Per User"
+msgstr "EENMALIG TARIEF PER GEBRUIKER"
+
+#: functions.php:449
+msgid "Enterprise License."
+msgstr "Bedrijfslicentie."
+
+#: functions.php:449
+msgid "Contact Us"
+msgstr "Contact"
+
+#: functions.php:798
+#, php-format
+msgid "%1$s / %2$s"
+msgstr "%1$s / %2$s"
+
+#: functions.php:799
+#, php-format
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr "<cite class=\"fn\">%s</cite>"
+
+#: functions.php:800
+msgid "(Edit)"
+msgstr "(Edit)"
+
+#: functions.php:805
+msgid "Your comment is awaiting moderation."
+msgstr "Your comment is awaiting moderation."
+
+#: functions.php:1028
+msgid "&ldquo;"
+msgstr "&laquo; "
+
+#: functions.php:1028
+msgid "&rdquo;"
+msgstr " &raquo; "
+
+#: page-multilingual-landing-page.php:12
+msgid "The Social Intranet"
+msgstr "Sociaal Intranet"
+
+#: page-multilingual-landing-page.php:15
+msgid "View English site"
+msgstr "View English site"
+
+#: page-multilingual-landing-page.php:50
+msgid "Key Features"
+msgstr "FUNCTIES"
+
+#: page-multilingual-landing-page.php:94
+msgid "Pricing"
+msgstr "PRIJSSTELLING"
+
+#: page-multilingual-landing-page.php:97
+msgid "Cloud"
+msgstr "Cloud"
+
+#: page-multilingual-landing-page.php:98
+msgid ""
+"Let us do the work for you. We'll host everything securely in our data "
+"centre in London or Vancouver."
+msgstr ""
+"Laat ons het werk voor u doen. Wij slaan alles veilig op in ons "
+"gegevenscentrum in Londen of Vancouver."
+
+#: page-multilingual-landing-page.php:118
+msgid "Self-Hosted"
+msgstr " Zelf hosten."
+
+#: page-multilingual-landing-page.php:119
+msgid ""
+"Host on your own servers and enjoy complete control. Requires Windows "
+"Server, SQL Server and Active Directory."
+msgstr ""
+"Host de applicatie op uw eigen servers en profiteer van volledige controle. "
+"Vereist Windows Server, SQL Server en Active Directory."
+
+#: page-multilingual-landing-page.php:167
+msgid "Multilingual"
+msgstr "MEERTALIG"
+
+#: page-multilingual-landing-page.php:177
+msgid "Request a Live demo"
+msgstr "VRAAG EEN LIVE DEMONSTRATIE AAN"
+
+#: page-multilingual-landing-page.php:178
+msgid "wufoo_form"
+msgstr "r7w9x7"
+
+#: page-multilingual-landing-page.php:185
+msgid ""
+"ThoughtFarmer, a product of <a href=\"http://www.openroad.ca\">OpenRoad</a>."
+msgstr ""
+"ThoughtFarmer is een product van <a href=\"http://www.openroad.ca"
+"\">OpenRoad</a>."
+
+#: page-multilingual-landing-page.php:185
+msgid "OpenRoad Communications Ltd. All right reserved."
+msgstr "OpenRoad Communications Ltd. Alle rechten voorbehouden."
+
+#: page-multilingual-landing-page.php:186
+msgid "Privacy policy"
+msgstr "Privacyverklaring"
+
+#: page-multilingual-landing-page.php:189
+msgid ""
+"<a href=\"/de/\">English</a> <a href=\"/de/\">Deutsch</a> <a href=\"/fr/"
+"\">français</a> <a href=\"/nl/\">Nederlands</a>"
+msgstr ""
+"<a href=\"/\">English</a> <a href=\"/de/\">Deutsch</a> <a href=\"/fr/"
+"\">français</a>"

@@ -30,6 +30,14 @@
     {
       "type": "composer",
       "url": "https://wpackagist.org"
+    },
+    {
+      "type" : "vcs",
+      "url" : "ssh://git@git.openroad.local:7999/orcwp/advanced-custom-fields-pro.git"
+    },
+    {
+      "type" : "vcs",
+      "url" : "ssh://git@git.openroad.local:7999/orcwp/wp-migrate-db-pro.git"
     }
   ],
   "require": {
@@ -38,7 +46,26 @@
     "vlucas/phpdotenv": "^2.0.1",
     "johnpbloch/wordpress": "4.9.7",
     "oscarotero/env": "^1.1.0",
-    "roots/wp-password-bcrypt": "1.0.0"
+    "roots/wp-password-bcrypt": "1.0.0", 
+    "wpackagist-plugin/advanced-excerpt": "^4.2",
+    "wpackagist-plugin/backupwordpress": "^3.6",
+    "wpackagist-plugin/comet-cache": "170220",
+    "wpackagist-plugin/enhanced-media-library": "^2.6",
+    "wpackagist-plugin/network-plugin-auditor": "^1.10",
+    "wpackagist-plugin/post-types-order": "1.9.3.9",
+    "wpackagist-plugin/redirect": "^0.8.0",
+    "wpackagist-plugin/redirection": "^3.3",
+    "wpackagist-plugin/tinymce-advanced": "^4.7",
+    "wpackagist-plugin/twitter-widget-pro": "^2.9",
+    "wpackagist-plugin/wordpress-mu-domain-mapping": "0.5.5.1",
+    "wpackagist-plugin/taxonomy-terms-order": "^1.5",
+    "wpackagist-plugin/custom-field-template": "^2.4",
+    "wpackagist-plugin/media-library-assistant": "^2.74",
+    "wpackagist-plugin/pjw-mime-config": "^1.00",
+    "wpackagist-plugin/wp-syntax": "^1.1",
+    "wpackagist-plugin/wordpress-seo": "^7.8",
+    "orcwp/wp-migrate-db-pro": "1.8.1",
+    "orcwp/advanced-custom-fields-pro": "5.7.0"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2"

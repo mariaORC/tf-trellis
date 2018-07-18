@@ -1,0 +1,79 @@
+<?php
+use Roots\Sage\Extras;
+?>
+
+<?php
+ /* How many recent posts to display?*/
+$recent_num = "3";
+
+page_in_menu('primary', $post->ID);
+?>
+<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+<div class="row">
+    <div class="col-sm-6">
+        <?php
+            the_content();
+
+            echo '<div class="divider text"><span class="tourNav">'.get_field('whats_next_divider').'</span></div>';
+            echo '<h5>'.get_field('content_block_title').'</h5>';
+
+            Extras\output_latest_webinar();
+            echo '<br/>';
+
+            Extras\output_flexible_content_blocks(1, false);
+
+            echo '<div class="divider notoppad"></div>';
+
+            the_field('bonus_material');
+        ?>
+    </div>
+    <div id="sidebar" class="col-sm-5 col-sm-push-1">
+        <?php
+        the_field('case_study_intro');
+
+        query_posts('post_type=case_study&meta_key=feature_on_intranet_101&meta_value=1&posts_per_page=4&order=DESC');
+
+        $count = 1;
+
+        echo '<div class="content-blocks cols2 row">';
+        while (have_posts()) : the_post();
+        ?>
+        <div class="contentBlock casestudy col-sm-6">
+            <a href="<?php the_permalink(); ?>"><?php
+                    $photoID = get_field('homepage_feature_image');
+
+                    if ($photoID == '')
+                        $photoID = get_field('logo_feature_image');
+
+                    if ($photoID):
+                        $thumbnail = wp_get_attachment_image_src($photoID, THUMB_TWO_COL_CONTENT_BLOCK_WITH_SIDEBAR);
+                        echo '<img src="'.$thumbnail[0].'" height="'.$thumbnail[2].'" width="'.$thumbnail[1].'" alt="'.get_the_title().' Logo" />';
+                    endif;
+                ?></a><br/>
+            <p><a href="<?php the_permalink(); ?>">Case Study: <?php the_title(); ?></a></p>
+        </div>
+        <?php
+            $count++;
+
+            if ($count > 2)
+                $count = 1;
+        endwhile;
+
+        wp_reset_query();
+        ?>
+        </div>
+        <div class="clear"></div>
+        <?php
+        the_field('case_study_footer');
+
+        echo '<br/><div class="divider"></div>';
+        
+        if (get_field('further_reading')) {
+            echo '<div class="furtherReading">';
+            the_field('further_reading');
+            echo '</div>';
+        }
+        ?>
+    </div>
+</div>
+<?php endwhile; endif; ?>

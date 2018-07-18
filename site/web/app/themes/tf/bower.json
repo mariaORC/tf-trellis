@@ -1,0 +1,62 @@
+{
+  "name": "tf",
+  "homepage": "https://www.thoughtfarmer.com/",
+  "authors": [
+    "Martin Blumenfeld <martin@rps.is>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "bootstrap-sass": "3.3.6",
+	"waypoints": "4.0.*",
+    "flickity" : "2.x",
+    "fancybox": "3.*",
+    "imagesloaded": "4.1.*",
+    "jquery-bridget": "2.0.*",
+    "isotope": "3.*",
+	"isotope-packery": "2.*",
+	"matchHeight": "0.7.x"
+  },
+  "overrides": {
+    "bootstrap-sass": {
+      "main": [
+        "./assets/stylesheets/_bootstrap.scss",
+        "./assets/javascripts/bootstrap/transition.js",
+        "./assets/javascripts/bootstrap/alert.js",
+        "./assets/javascripts/bootstrap/button.js",
+        "./assets/javascripts/bootstrap/carousel.js",
+        "./assets/javascripts/bootstrap/collapse.js",
+        "./assets/javascripts/bootstrap/dropdown.js",
+        "./assets/javascripts/bootstrap/modal.js",
+        "./assets/javascripts/bootstrap/tooltip.js",
+        "./assets/javascripts/bootstrap/popover.js",
+        "./assets/javascripts/bootstrap/scrollspy.js",
+        "./assets/javascripts/bootstrap/tab.js",
+        "./assets/javascripts/bootstrap/affix.js"
+      ]
+	},
+    "flickity": {
+        "main": [
+          "./dist/flickity.pkgd.js",
+          "./dist/flickity.css"
+        ]
+    },
+    "fancybox": {
+      "main": [
+         "./dist/jquery.fancybox.js",
+         "./dist/jquery.fancybox.css"
+      ]
+    },
+    "waypoints": {
+      "main": ["./lib/jquery.waypoints.js"]
+    },
+    "isotope": {
+		"main": ["./dist/isotope.pkgd.js"],
+		"dependencies": null
+	},
+	"isotope-packery": {
+      "main": ["./packery-mode.pkgd.js"],
+      "dependencies": null
+    }
+  }
+}

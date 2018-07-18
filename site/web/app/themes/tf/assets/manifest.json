@@ -1,0 +1,36 @@
+{
+  "dependencies": {
+	"main.js": {
+      "files": [
+        "scripts/plugins/cookiesDirective.1.5.js",
+        "scripts/plugins/easySlider1.7.js",
+        "scripts/plugins/jquery.cycle.lite.js",
+        "scripts/zendeskrating.js",
+        "scripts/main.js"
+      ],
+      "main": true
+    },
+    "case-studies.js": {
+		"files": [
+			"scripts/case-studies/case-studies.js"
+		]
+	},
+    "main.css": {
+      "files": [
+        "styles/main.scss"
+      ],
+      "main": true
+    },
+    "customizer.js": {
+      "files": [
+        "scripts/customizer.js"
+      ]
+    },
+    "jquery.js": {
+      "bower": ["jquery"]
+    }
+  },
+  "config": {
+    "devUrl": "http://dev.thoughtfarmer.com"
+  }
+}

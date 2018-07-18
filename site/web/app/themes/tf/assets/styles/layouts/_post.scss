@@ -1,0 +1,153 @@
+body.single-anniversary {
+    background: #Fdf6d8; // url(../images/bg-section-intro.jpg) no-repeat center center; background-size: 97% 97%;
+    padding: 15px; height: 100%;
+
+    .wistia_responsive_padding { border: solid 15px #FFF; border-bottom: 0; background: #FFF; box-shadow: 1px 1px 5px rgba(0,0,0,0.15); width: 100%; height: auto; }
+
+    .page-container { background: transparent; display: table; width: 100%; height: 100%; max-width: 1200px; margin: 0 auto; }
+    .inner { display: table-cell; vertical-align: middle; width: 100%; }
+
+    @media (min-width: $screen-sm-min) {
+        padding: 20px 50px;
+    }
+}
+
+article.post {
+    border-bottom: solid 1px #CCC; margin-bottom: 50px; padding-bottom: 54px;
+
+	&:first-child { padding-top: 22px; }
+
+	.articles & {
+		margin-bottom: 20px;
+	}
+
+    p, & { line-height: 1.6; }
+
+    h2, h3, h4 { font-size: 18px; text-transform: none; }
+    h3, h4 {
+        margin-top: 42px; margin-bottom: 12px;
+
+        strong { font-weight: $font-weight-semi-bold; }
+    }
+
+    h2 { margin-top: 40px; }
+
+    body.single & { border-top: 0; border-bottom: 0; padding-top: 0; padding-bottom: 0; }
+
+     &:first-child { padding-top: 0; border-top: 0; }
+
+     .post-category {
+            font-size: 15px; line-height: 1; text-transform: uppercase; margin-bottom: 30px; font-weight: 500;
+
+            &, a { color: $text-color; }
+     }
+
+    .byline { margin: 15px 0 30px; }
+
+     h1.entry-title, h2.entry-title {
+            font-size: 32px; line-height: 1.33; margin-top: 0; text-transform: none;
+
+            &, a {
+                 color: $brand-success-dark;
+
+                 &:hover { color: darken($brand-success-dark, 10%); }
+            }
+     }
+
+    #respond, .related-posts, .entry-comments {
+        .title { color: $brand-success-dark; font-size: 20px; line-height: 20px; margin: 30px 0 25px 0; }
+    }
+
+    .related-posts {
+        p { margin-bottom: 22px; }
+        .meta { font-size: 12px; }
+        img { border: solid 1px #CCC; margin-bottom: 10px; }
+        h4 {
+            margin-bottom: 15px;
+
+            a { color: $text-color; line-height: 1.33; }
+        }
+    }
+
+    #comments { margin-top: 60px; margin-bottom: 0; }
+    .comment-meta {
+        float: left; padding-right: 30px; width: 170px;
+    }
+    .comment-meta .comment-date { font-size: 12px; line-height: 12px; }
+    .comment-list { border-bottom: solid 1px #CCC; }
+    .comment-list li { border-top: solid 1px #CCC; clear: both; padding: 17px 0; }
+}
+
+.entry-social {
+    height: 21px; margin-bottom: 15px;
+    a, iframe { float: left; }
+    a .badge { margin-left: 6px; }
+    a.comments { text-transform: uppercase; padding: 0 12px; font-weight: 800; }
+}
+
+.marketing-snipplet, .documentation .canonical { background: $gray-lighter; color: $text-color; display: block; margin-bottom: 20px; padding: 24px 20px; }
+
+.marketing-snipplet {
+    margin: 35px 0 55px 0;
+
+    a {
+        text-decoration: none;
+
+        &:hover { text-decoration: underline; }
+    }
+}
+
+.subscribe-form {
+     background: #12416b; font-size: 12px; padding: 19px 19px 29px 19px;
+
+     dt { text-transform: uppercase; padding-bottom: 4px; }
+     &, a { color: #fff; }
+     p { line-height: 1.8; margin-bottom: 15px;}
+
+     &.stuck { position: fixed; top: 20px; }
+}
+
+.next-page {
+    border-top: solid 1px #cccccc; border-bottom: solid 1px #cccccc; padding: 0 20px; margin-top: 40px;
+
+    a {
+        display: block; position: relative; padding: 20px 40px 20px 0; font-weight: $font-weight-light;
+
+        &:after { content: "\67"; font-family: 'thoughtfarmer'; font-size: 26px; line-height: 1; right: 0; top: 18px; position: absolute; }
+    }
+}
+
+.prev-page {
+    a.btn-outline {
+        padding: 16px 32px 16px 48px; position: relative;
+        &:before { content: "\66"; font-family: 'thoughtfarmer'; font-size: 26px; line-height: 1; left: 18px; top: 12px; position: absolute; }
+    }
+}
+
+.results .navigation {
+	border-bottom: 1px solid #ccc; padding-bottom: 20px;
+
+	.num {
+		padding: 1px 5px; display: inline-block;
+
+		&.current { background: $brand-success-dark; color: #FFF; font-weight: $font-weight-extra-bold; }
+	}
+
+	.prev-next {
+		display: inline-block; position: relative; padding: 1px 0 1px 40px; font-weight: $font-weight-light;
+
+		i { font-size: 26px; line-height: 1; top: -2px; position: absolute; }
+	}
+
+	.pager-next {
+		float: right; padding: 1px 40px 1px 0;
+
+		i { right: 0; }
+	}
+	.pager-prev {
+		float: left;
+
+		i { left: 0; }
+	}
+
+}

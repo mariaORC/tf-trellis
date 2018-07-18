@@ -1,0 +1,68 @@
+
+body.intranets-101 {
+	.content-blocks > .contentBlock ~ .contentBlock {
+		position: relative;
+
+		&:before {
+			content: ''; display: block; width: 90%; max-width: 1200px; position: absolute; top: 0; left: 0; right: 0; margin: 0 auto; border-top: solid 1px #e3e2e0;
+		}
+	}
+
+	.case_study_carousel, .content-blocks > .case_study_carousel + .contentBlock, .content-blocks > .featured_webinar + .contentBlock {
+		&:before { display: none; }
+	}
+}
+// 	h3 {
+// 		font-weight: $font-weight-semi-bold; margin-top: 42px;
+
+// 		&:first-child { margin-top: 22px; }
+// 	}
+
+// 	h2 {
+// 		padding-top: 30px;
+
+// 		&:first-child { padding-top: 0; }
+// 	}
+
+// 	#sidebar {
+// 		h2 { padding-top: 0; }
+// 		.content-blocks .contentBlock { margin-bottom: 30px; }
+// 	}
+
+// 	.furtherReading p {
+// 		@extend .clearfix;
+// 	}
+// }
+
+// @media screen and (max-width: $screen-sm-max) {
+//     .intranets-101 {
+//         #sidebar {
+//             .content-blocks .contentBlock {
+//                 margin-bottom: 15px;
+
+//                 img { margin-bottom: 10px; }
+//                 h3 { font-size: 16px; }
+//             }
+
+//             h2 { margin-top: 0; }
+//         }
+//     }
+// }
+
+// @media screen and (max-width: $screen-xs) {
+//     body.intranets-101 {
+//         .page-intro { margin-bottom: 33px; }
+//         .divider.text { margin-bottom: 55px; }
+//         .divider.notoppad { height: 10px; padding-top: 30px; }
+
+// 		#sidebar {
+// 			padding-top: 40px;
+// 		}
+
+//         .furtherReading p {
+// 			margin-bottom: 40px;
+
+//             &:nth-last-child(2), &:nth-last-child(3) { margin-bottom: 0; }
+//         }
+//     }
+// }
